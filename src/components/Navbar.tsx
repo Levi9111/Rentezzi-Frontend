@@ -35,7 +35,7 @@ export default function Navbar() {
 
   // Close menus on ESC
   useEffect(() => {
-    const onKey = (e) => {
+    const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         setMenuOpen(false);
         setUserMenuOpen(false);
@@ -80,7 +80,9 @@ export default function Navbar() {
 
     if (menuOpen) {
       // Stagger animation for menu items
-      links.forEach((link, i) => {
+      links.forEach((element, i) => {
+        const link = element as HTMLElement;
+
         link.style.opacity = '0';
         link.style.transform = 'translateX(20px)';
         setTimeout(() => {
