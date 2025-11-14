@@ -1,16 +1,31 @@
-// redux/store.ts
 import { configureStore } from '@reduxjs/toolkit';
-// Import your slices here
-// import counterReducer from './features/counter/counterSlice';
+import { persistStore } from 'redux-persist';
+import authReducer from './auth/authSlice';
+import storage from 'redux-persist/lib/storage';
+import persistReducer from 'redux-persist/es/persistReducer';
+import { baseApi } from './api/baseApi';
+
+const persistedAuthConfig = {
+  key: 'auth',
+  storage,
+  whitelist: ['accessToken'],
+};
+
+const persistedAuthReducer = persistReducer(persistedAuthConfig, authReducer);
 
 export const store = configureStore({
   reducer: {
-    // Add your reducers here
-    // counter: counterReducer,
+    auth: persistedAuthReducer,
+    [baseApi.reducerPath]: baseApi.reducer,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({ serializableCheck: false }).concat(
+      baseApi.middleware,
+    ),
 });
 
-// Infer the `RootState` and `AppDispatch` types from the store itself
+export const persistor = persistStore(store);
+
 export type RootState = ReturnType<typeof store.getState>;
-// Inferred type: {posts: PostsState, comments: CommentsState, users: UsersState}
+
 export type AppDispatch = typeof store.dispatch;
