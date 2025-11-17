@@ -150,6 +150,21 @@ export default function Navbar() {
               </a>
             ))}
 
+            {/* Login */}
+            <a
+              href='/auth/login'
+              className='text-sm text-foreground/80 hover:text-foreground px-3 py-2 rounded-lg hover:bg-accent/10 transition-all duration-200'
+            >
+              লগইন
+            </a>
+
+            {/* Register */}
+            <a
+              href='/auth/register'
+              className='relative inline-flex items-center justify-center rounded-lg border border-accent px-4 py-2 text-sm font-medium text-accent-foreground bg-background hover:bg-accent/10 transition-all duration-300 hover:scale-105 active:scale-95'
+            >
+              রেজিস্টার
+            </a>
             <button
               onClick={scrollToForm}
               className='relative inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2.5 text-accent-foreground text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/20 active:scale-95 overflow-hidden group'
@@ -315,8 +330,7 @@ export default function Navbar() {
               <X className='w-5 h-5' />
             </button>
           </div>
-
-          <div className='p-4 flex flex-col gap-2'>
+          <div className='p-4 flex flex-col gap-2 bg-gray-100'>
             {links.map((l) => (
               <a
                 key={l.href}
@@ -339,8 +353,26 @@ export default function Navbar() {
               <span className='absolute inset-0 bg-gradient-to-r from-accent/80 to-accent translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300'></span>
             </button>
 
+            {/* NEW: Login / Register */}
+            <div className='mt-3 flex gap-2'>
+              <a
+                href='/auth/login'
+                onClick={() => setMenuOpen(false)}
+                className='flex-1 inline-flex items-center justify-center rounded-lg border border-border px-4 py-3 text-sm text-foreground/90 hover:bg-accent/10 transition-all duration-300 hover:scale-[1.02] active:scale-95'
+              >
+                লগইন
+              </a>
+              <a
+                href='/auth/register'
+                onClick={() => setMenuOpen(false)}
+                className='flex-1 inline-flex items-center justify-center rounded-lg bg-accent px-4 py-3 text-sm text-accent-foreground font-medium hover:bg-accent/90 transition-all duration-300 hover:scale-[1.02] active:scale-95'
+              >
+                রেজিস্টার
+              </a>
+            </div>
+
             {/* User section in mobile */}
-            <div className='mt-6 pt-6 border-t border-border'>
+            <div className='mt-6 pt-6 border-t border-border bg-'>
               <div className='flex items-center gap-3 px-4 py-3 rounded-lg bg-accent/5'>
                 <div className='w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center'>
                   <User className='w-5 h-5 text-accent-foreground' />

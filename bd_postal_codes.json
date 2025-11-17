@@ -1,0 +1,887 @@
+{
+  "bangladesh": {
+    "divisions": [
+      {
+        "name": "Barisal Division",
+        "districts": [
+          {
+            "name": "Barguna",
+            "police_stations": [
+              {"name": "Amtali", "postal_code": "8710"},
+              {"name": "Bamna", "postal_code": "8730"},
+              {"name": "Barguna Sadar", "postal_code": "8700"},
+              {"name": "Betagi", "postal_code": "8740"},
+              {"name": "Patharghata", "postal_code": "8720"}
+            ]
+          },
+          {
+            "name": "Barisal",
+            "police_stations": [
+              {"name": "Agailjhara", "postal_code": "8240"},
+              {"name": "Babuganj", "postal_code": "8210"},
+              {"name": "Bakerganj", "postal_code": "8250"},
+              {"name": "Banaripara", "postal_code": "8230"},
+              {"name": "Barisal Sadar", "postal_code": "8200"},
+              {"name": "Gaurnadi", "postal_code": "8220"},
+              {"name": "Hizla", "postal_code": "8260"},
+              {"name": "Mehendiganj", "postal_code": "8270"},
+              {"name": "Muladi", "postal_code": "8216"},
+              {"name": "Wazirpur", "postal_code": "8212"}
+            ]
+          },
+          {
+            "name": "Bhola",
+            "police_stations": [
+              {"name": "Bhola Sadar", "postal_code": "8300"},
+              {"name": "Burhanuddin", "postal_code": "8320"},
+              {"name": "Char Fasson", "postal_code": "8340"},
+              {"name": "Daulatkhan", "postal_code": "8310"},
+              {"name": "Lalmohan", "postal_code": "8360"},
+              {"name": "Manpura", "postal_code": "8330"},
+              {"name": "Tazumuddin", "postal_code": "8350"}
+            ]
+          },
+          {
+            "name": "Jhalokati",
+            "police_stations": [
+              {"name": "Jhalokati Sadar", "postal_code": "8400"},
+              {"name": "Kathalia", "postal_code": "8420"},
+              {"name": "Nalchity", "postal_code": "8410"},
+              {"name": "Rajapur", "postal_code": "8430"}
+            ]
+          },
+          {
+            "name": "Patuakhali",
+            "police_stations": [
+              {"name": "Bauphal", "postal_code": "8620"},
+              {"name": "Dashmina", "postal_code": "8630"},
+              {"name": "Dumki", "postal_code": "8610"},
+              {"name": "Galachipa", "postal_code": "8640"},
+              {"name": "Kala Para", "postal_code": "8650"},
+              {"name": "Mirzaganj", "postal_code": "8616"},
+              {"name": "Patuakhali Sadar", "postal_code": "8600"},
+              {"name": "Rangabali", "postal_code": "8660"}
+            ]
+          },
+          {
+            "name": "Pirojpur",
+            "police_stations": [
+              {"name": "Bhandaria", "postal_code": "8550"},
+              {"name": "Kawkhali", "postal_code": "8570"},
+              {"name": "Mathbaria", "postal_code": "8560"},
+              {"name": "Nazirpur", "postal_code": "8540"},
+              {"name": "Pirojpur Sadar", "postal_code": "8500"},
+              {"name": "Nesarabad", "postal_code": "8520"},
+              {"name": "Zianagar", "postal_code": "8510"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chittagong Division",
+        "districts": [
+          {
+            "name": "Bandarban",
+            "police_stations": [
+              {"name": "Ali Kadam", "postal_code": "4660"},
+              {"name": "Bandarban Sadar", "postal_code": "4600"},
+              {"name": "Lama", "postal_code": "4630"},
+              {"name": "Naikhongchhari", "postal_code": "4650"},
+              {"name": "Rowangchhari", "postal_code": "4610"},
+              {"name": "Ruma", "postal_code": "4620"},
+              {"name": "Thanchi", "postal_code": "4640"}
+            ]
+          },
+          {
+            "name": "Brahmanbaria",
+            "police_stations": [
+              {"name": "Akhaura", "postal_code": "3450"},
+              {"name": "Bancharampur", "postal_code": "3450"},
+              {"name": "Brahmanbaria Sadar", "postal_code": "3400"},
+              {"name": "Kasba", "postal_code": "3460"},
+              {"name": "Nabinagar", "postal_code": "3440"},
+              {"name": "Nasirnagar", "postal_code": "3420"},
+              {"name": "Sarail", "postal_code": "3410"},
+              {"name": "Ashuganj", "postal_code": "3402"}
+            ]
+          },
+          {
+            "name": "Chandpur",
+            "police_stations": [
+              {"name": "Chandpur Sadar", "postal_code": "3600"},
+              {"name": "Faridganj", "postal_code": "3650"},
+              {"name": "Haimchar", "postal_code": "3660"},
+              {"name": "Hajiganj", "postal_code": "3610"},
+              {"name": "Kachua", "postal_code": "3630"},
+              {"name": "Matlab Dakshin", "postal_code": "3640"},
+              {"name": "Matlab Uttar", "postal_code": "3641"},
+              {"name": "Shahrasti", "postal_code": "3620"}
+            ]
+          },
+          {
+            "name": "Chittagong",
+            "police_stations": [
+              {"name": "Anwara", "postal_code": "4376"},
+              {"name": "Banshkhali", "postal_code": "4390"},
+              {"name": "Boalkhali", "postal_code": "4366"},
+              {"name": "Chandanaish", "postal_code": "4380"},
+              {"name": "Fatikchhari", "postal_code": "4350"},
+              {"name": "Hathazari", "postal_code": "4330"},
+              {"name": "Karnaphuli", "postal_code": "4370"},
+              {"name": "Lohagara", "postal_code": "4392"},
+              {"name": "Mirsharai", "postal_code": "4320"},
+              {"name": "Patiya", "postal_code": "4370"},
+              {"name": "Rangunia", "postal_code": "4360"},
+              {"name": "Raozan", "postal_code": "4340"},
+              {"name": "Sandwip", "postal_code": "4300"},
+              {"name": "Satkania", "postal_code": "4387"},
+              {"name": "Sitakunda", "postal_code": "4310"}
+            ]
+          },
+          {
+            "name": "Comilla",
+            "police_stations": [
+              {"name": "Barura", "postal_code": "3560"},
+              {"name": "Brahmanpara", "postal_code": "3526"},
+              {"name": "Burichang", "postal_code": "3520"},
+              {"name": "Chandina", "postal_code": "3510"},
+              {"name": "Chauddagram", "postal_code": "3550"},
+              {"name": "Comilla Sadar", "postal_code": "3500"},
+              {"name": "Daudkandi", "postal_code": "3516"},
+              {"name": "Debidwar", "postal_code": "3530"},
+              {"name": "Homna", "postal_code": "3546"},
+              {"name": "Laksam", "postal_code": "3570"},
+              {"name": "Monohorgonj", "postal_code": "3540"},
+              {"name": "Meghna", "postal_code": "3572"},
+              {"name": "Muradnagar", "postal_code": "3542"},
+              {"name": "Nangalkot", "postal_code": "3580"},
+              {"name": "Titas", "postal_code": "3517"}
+            ]
+          },
+          {
+            "name": "Cox's Bazar",
+            "police_stations": [
+              {"name": "Chakaria", "postal_code": "4740"},
+              {"name": "Cox's Bazar Sadar", "postal_code": "4700"},
+              {"name": "Kutubdia", "postal_code": "4720"},
+              {"name": "Maheshkhali", "postal_code": "4730"},
+              {"name": "Ramu", "postal_code": "4731"},
+              {"name": "Teknaf", "postal_code": "4760"},
+              {"name": "Ukhia", "postal_code": "4750"}
+            ]
+          },
+          {
+            "name": "Feni",
+            "police_stations": [
+              {"name": "Chhagalnaiya", "postal_code": "3920"},
+              {"name": "Daganbhuiyan", "postal_code": "3940"},
+              {"name": "Feni Sadar", "postal_code": "3900"},
+              {"name": "Parshuram", "postal_code": "3930"},
+              {"name": "Sonagazi", "postal_code": "3950"},
+              {"name": "Fulgazi", "postal_code": "3960"}
+            ]
+          },
+          {
+            "name": "Khagrachhari",
+            "police_stations": [
+              {"name": "Dighinala", "postal_code": "4420"},
+              {"name": "Khagrachhari Sadar", "postal_code": "4400"},
+              {"name": "Lakshmichhari", "postal_code": "4470"},
+              {"name": "Mahalchhari", "postal_code": "4430"},
+              {"name": "Manikchhari", "postal_code": "4460"},
+              {"name": "Matiranga", "postal_code": "4450"},
+              {"name": "Panchhari", "postal_code": "4440"},
+              {"name": "Ramgarh", "postal_code": "4410"}
+            ]
+          },
+          {
+            "name": "Lakshmipur",
+            "police_stations": [
+              {"name": "Lakshmipur Sadar", "postal_code": "3700"},
+              {"name": "Raipur", "postal_code": "3720"},
+              {"name": "Ramganj", "postal_code": "3730"},
+              {"name": "Ramgati", "postal_code": "3710"},
+              {"name": "Kamalnagar", "postal_code": "3740"}
+            ]
+          },
+          {
+            "name": "Noakhali",
+            "police_stations": [
+              {"name": "Begumganj", "postal_code": "3820"},
+              {"name": "Chatkhil", "postal_code": "3870"},
+              {"name": "Companiganj", "postal_code": "3830"},
+              {"name": "Hatiya", "postal_code": "3890"},
+              {"name": "Kabirhat", "postal_code": "3840"},
+              {"name": "Noakhali Sadar", "postal_code": "3800"},
+              {"name": "Senbagh", "postal_code": "3850"},
+              {"name": "Sonaimuri", "postal_code": "3860"},
+              {"name": "Subarnachar", "postal_code": "3880"}
+            ]
+          },
+          {
+            "name": "Rangamati",
+            "police_stations": [
+              {"name": "Bagaichhari", "postal_code": "4530"},
+              {"name": "Barkal", "postal_code": "4550"},
+              {"name": "Kawkhali", "postal_code": "4560"},
+              {"name": "Belaichhari", "postal_code": "4570"},
+              {"name": "Kaptai", "postal_code": "4531"},
+              {"name": "Juraichhari", "postal_code": "4540"},
+              {"name": "Langadu", "postal_code": "4520"},
+              {"name": "Naniyachar", "postal_code": "4580"},
+              {"name": "Rangamati Sadar", "postal_code": "4500"},
+              {"name": "Rajasthali", "postal_code": "4510"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dhaka Division",
+        "districts": [
+          {
+            "name": "Dhaka",
+            "police_stations": [
+              {"name": "Adabor", "postal_code": "1207"},
+              {"name": "Badda", "postal_code": "1212"},
+              {"name": "Banani", "postal_code": "1213"},
+              {"name": "Bangshal", "postal_code": "1211"},
+              {"name": "Bimanbandar", "postal_code": "1230"},
+              {"name": "Cantonment", "postal_code": "1206"},
+              {"name": "Chawkbazar", "postal_code": "1211"},
+              {"name": "Dakshinkhan", "postal_code": "1230"},
+              {"name": "Darus Salam", "postal_code": "1216"},
+              {"name": "Demra", "postal_code": "1361"},
+              {"name": "Dhanmondi", "postal_code": "1205"},
+              {"name": "Gendaria", "postal_code": "1204"},
+              {"name": "Gulshan", "postal_code": "1212"},
+              {"name": "Hazaribagh", "postal_code": "1209"},
+              {"name": "Jatrabari", "postal_code": "1204"},
+              {"name": "Kadamtali", "postal_code": "1211"},
+              {"name": "Kafrul", "postal_code": "1216"},
+              {"name": "Kalabagan", "postal_code": "1205"},
+              {"name": "Kamrangirchar", "postal_code": "1211"},
+              {"name": "Khilgaon", "postal_code": "1219"},
+              {"name": "Khilkhet", "postal_code": "1229"},
+              {"name": "Kotwali", "postal_code": "1211"},
+              {"name": "Lalbagh", "postal_code": "1211"},
+              {"name": "Mirpur", "postal_code": "1216"},
+              {"name": "Mohammadpur", "postal_code": "1207"},
+              {"name": "Motijheel", "postal_code": "1222"},
+              {"name": "New Market", "postal_code": "1205"},
+              {"name": "Pallabi", "postal_code": "1216"},
+              {"name": "Paltan", "postal_code": "1222"},
+              {"name": "Ramna", "postal_code": "1217"},
+              {"name": "Rampura", "postal_code": "1219"},
+              {"name": "Sabujbagh", "postal_code": "1214"},
+              {"name": "Savar", "postal_code": "1340"},
+              {"name": "Shah Ali", "postal_code": "1216"},
+              {"name": "Shahbagh", "postal_code": "1217"},
+              {"name": "Sher-e-Bangla Nagar", "postal_code": "1207"},
+              {"name": "Shyampur", "postal_code": "1204"},
+              {"name": "Sutrapur", "postal_code": "1211"},
+              {"name": "Tejgaon", "postal_code": "1215"},
+              {"name": "Tejgaon Industrial Area", "postal_code": "1208"},
+              {"name": "Uttara", "postal_code": "1230"},
+              {"name": "Uttarkhan", "postal_code": "1230"}
+            ]
+          },
+          {
+            "name": "Faridpur",
+            "police_stations": [
+              {"name": "Alfadanga", "postal_code": "7870"},
+              {"name": "Bhanga", "postal_code": "7830"},
+              {"name": "Boalmari", "postal_code": "7860"},
+              {"name": "Charbhadrasan", "postal_code": "7850"},
+              {"name": "Faridpur Sadar", "postal_code": "7800"},
+              {"name": "Madhukhali", "postal_code": "7840"},
+              {"name": "Nagarkanda", "postal_code": "7820"},
+              {"name": "Sadarpur", "postal_code": "7810"},
+              {"name": "Saltha", "postal_code": "7880"}
+            ]
+          },
+          {
+            "name": "Gazipur",
+            "police_stations": [
+              {"name": "Gazipur Sadar", "postal_code": "1700"},
+              {"name": "Kaliakair", "postal_code": "1750"},
+              {"name": "Kaliganj", "postal_code": "1720"},
+              {"name": "Kapasia", "postal_code": "1730"},
+              {"name": "Sreepur", "postal_code": "1740"}
+            ]
+          },
+          {
+            "name": "Gopalganj",
+            "police_stations": [
+              {"name": "Gopalganj Sadar", "postal_code": "8100"},
+              {"name": "Kashiani", "postal_code": "8130"},
+              {"name": "Kotalipara", "postal_code": "8120"},
+              {"name": "Muksudpur", "postal_code": "8140"},
+              {"name": "Tungipara", "postal_code": "8110"}
+            ]
+          },
+          {
+            "name": "Kishoreganj",
+            "police_stations": [
+              {"name": "Austagram", "postal_code": "2330"},
+              {"name": "Bajitpur", "postal_code": "2336"},
+              {"name": "Bhairab", "postal_code": "2350"},
+              {"name": "Hossainpur", "postal_code": "2336"},
+              {"name": "Itna", "postal_code": "2390"},
+              {"name": "Karimganj", "postal_code": "2310"},
+              {"name": "Katiadi", "postal_code": "2331"},
+              {"name": "Kishoreganj Sadar", "postal_code": "2300"},
+              {"name": "Kuliarchar", "postal_code": "2332"},
+              {"name": "Mithamain", "postal_code": "2391"},
+              {"name": "Nikli", "postal_code": "2337"},
+              {"name": "Pakundia", "postal_code": "2326"},
+              {"name": "Tarail", "postal_code": "2338"}
+            ]
+          },
+          {
+            "name": "Madaripur",
+            "police_stations": [
+              {"name": "Madaripur Sadar", "postal_code": "7900"},
+              {"name": "Kalkini", "postal_code": "7920"},
+              {"name": "Rajoir", "postal_code": "7910"},
+              {"name": "Shibchar", "postal_code": "7930"}
+            ]
+          },
+          {
+            "name": "Manikganj",
+            "police_stations": [
+              {"name": "Manikganj Sadar", "postal_code": "1800"},
+              {"name": "Singair", "postal_code": "1810"},
+              {"name": "Shibalaya", "postal_code": "1820"},
+              {"name": "Saturia", "postal_code": "1830"},
+              {"name": "Harirampur", "postal_code": "1840"},
+              {"name": "Ghior", "postal_code": "1850"},
+              {"name": "Daulatpur", "postal_code": "1860"}
+            ]
+          },
+          {
+            "name": "Munshiganj",
+            "police_stations": [
+              {"name": "Munshiganj Sadar", "postal_code": "1500"},
+              {"name": "Sreenagar", "postal_code": "1510"},
+              {"name": "Sirajdikhan", "postal_code": "1520"},
+              {"name": "Louhajanj", "postal_code": "1530"},
+              {"name": "Gajaria", "postal_code": "1540"},
+              {"name": "Tongibari", "postal_code": "1550"}
+            ]
+          },
+          {
+            "name": "Narayanganj",
+            "police_stations": [
+              {"name": "Narayanganj Sadar", "postal_code": "1400"},
+              {"name": "Bandar", "postal_code": "1410"},
+              {"name": "Araihazar", "postal_code": "1450"},
+              {"name": "Sonargaon", "postal_code": "1440"},
+              {"name": "Rupganj", "postal_code": "1460"},
+              {"name": "Fatullah", "postal_code": "1420"}
+            ]
+          },
+          {
+            "name": "Narsingdi",
+            "police_stations": [
+              {"name": "Narsingdi Sadar", "postal_code": "1600"},
+              {"name": "Belabo", "postal_code": "1640"},
+              {"name": "Monohardi", "postal_code": "1650"},
+              {"name": "Palash", "postal_code": "1610"},
+              {"name": "Raipura", "postal_code": "1630"},
+              {"name": "Shibpur", "postal_code": "1620"}
+            ]
+          },
+          {
+            "name": "Rajbari",
+            "police_stations": [
+              {"name": "Rajbari Sadar", "postal_code": "7700"},
+              {"name": "Baliakandi", "postal_code": "7720"},
+              {"name": "Goalandaghat", "postal_code": "7730"},
+              {"name": "Pangsha", "postal_code": "7710"},
+              {"name": "Kalukhali", "postal_code": "7740"}
+            ]
+          },
+          {
+            "name": "Shariatpur",
+            "police_stations": [
+              {"name": "Shariatpur Sadar", "postal_code": "8000"},
+              {"name": "Naria", "postal_code": "8010"},
+              {"name": "Zajira", "postal_code": "8020"},
+              {"name": "Gosairhat", "postal_code": "8030"},
+              {"name": "Bhedarganj", "postal_code": "8040"},
+              {"name": "Damudya", "postal_code": "8050"}
+            ]
+          },
+          {
+            "name": "Tangail",
+            "police_stations": [
+              {"name": "Tangail Sadar", "postal_code": "1900"},
+              {"name": "Sakhipur", "postal_code": "1950"},
+              {"name": "Basail", "postal_code": "1920"},
+              {"name": "Madhupur", "postal_code": "1996"},
+              {"name": "Ghatail", "postal_code": "1980"},
+              {"name": "Kalihati", "postal_code": "1970"},
+              {"name": "Nagarpur", "postal_code": "1936"},
+              {"name": "Mirzapur", "postal_code": "1940"},
+              {"name": "Gopalpur", "postal_code": "1990"},
+              {"name": "Delduar", "postal_code": "1910"},
+              {"name": "Bhuapur", "postal_code": "1960"},
+              {"name": "Dhanbari", "postal_code": "1997"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Khulna Division",
+        "districts": [
+          {
+            "name": "Bagerhat",
+            "police_stations": [
+              {"name": "Bagerhat Sadar", "postal_code": "9300"},
+              {"name": "Chitalmari", "postal_code": "9360"},
+              {"name": "Fakirhat", "postal_code": "9370"},
+              {"name": "Kachua", "postal_code": "9310"},
+              {"name": "Mollahat", "postal_code": "9380"},
+              {"name": "Mongla", "postal_code": "9350"},
+              {"name": "Morrelganj", "postal_code": "9340"},
+              {"name": "Rampal", "postal_code": "9320"},
+              {"name": "Sarankhola", "postal_code": "9330"}
+            ]
+          },
+          {
+            "name": "Chuadanga",
+            "police_stations": [
+              {"name": "Chuadanga Sadar", "postal_code": "7200"},
+              {"name": "Alamdanga", "postal_code": "7210"},
+              {"name": "Damurhuda", "postal_code": "7220"},
+              {"name": "Jibannagar", "postal_code": "7230"}
+            ]
+          },
+          {
+            "name": "Jessore",
+            "police_stations": [
+              {"name": "Jessore Sadar", "postal_code": "7400"},
+              {"name": "Abhaynagar", "postal_code": "7450"},
+              {"name": "Bagherpara", "postal_code": "7470"},
+              {"name": "Chaugachha", "postal_code": "7440"},
+              {"name": "Jhikargacha", "postal_code": "7420"},
+              {"name": "Keshabpur", "postal_code": "7460"},
+              {"name": "Manirampur", "postal_code": "7430"},
+              {"name": "Sharsha", "postal_code": "7410"}
+            ]
+          },
+          {
+            "name": "Jhenaidah",
+            "police_stations": [
+              {"name": "Jhenaidah Sadar", "postal_code": "7300"},
+              {"name": "Harinakunda", "postal_code": "7330"},
+              {"name": "Kaliganj", "postal_code": "7340"},
+              {"name": "Kotchandpur", "postal_code": "7350"},
+              {"name": "Maheshpur", "postal_code": "7320"},
+              {"name": "Shailkupa", "postal_code": "7310"}
+            ]
+          },
+          {
+            "name": "Khulna",
+            "police_stations": [
+              {"name": "Khulna Sadar", "postal_code": "9000"},
+              {"name": "Batiaghata", "postal_code": "9260"},
+              {"name": "Dacope", "postal_code": "9310"},
+              {"name": "Dumuria", "postal_code": "9250"},
+              {"name": "Dighalia", "postal_code": "9220"},
+              {"name": "Koyra", "postal_code": "9270"},
+              {"name": "Paikgacha", "postal_code": "9280"},
+              {"name": "Phultala", "postal_code": "9210"},
+              {"name": "Rupsha", "postal_code": "9240"},
+              {"name": "Terokhada", "postal_code": "9230"}
+            ]
+          },
+          {
+            "name": "Kushtia",
+            "police_stations": [
+              {"name": "Kushtia Sadar", "postal_code": "7000"},
+              {"name": "Bheramara", "postal_code": "7040"},
+              {"name": "Daulatpur", "postal_code": "7020"},
+              {"name": "Khoksa", "postal_code": "7030"},
+              {"name": "Kumarkhali", "postal_code": "7010"},
+              {"name": "Mirpur", "postal_code": "7050"}
+            ]
+          },
+          {
+            "name": "Magura",
+            "police_stations": [
+              {"name": "Magura Sadar", "postal_code": "7600"},
+              {"name": "Mohammadpur", "postal_code": "7610"},
+              {"name": "Shalikha", "postal_code": "7620"},
+              {"name": "Sreepur", "postal_code": "7630"}
+            ]
+          },
+          {
+            "name": "Meherpur",
+            "police_stations": [
+              {"name": "Meherpur Sadar", "postal_code": "7100"},
+              {"name": "Gangni", "postal_code": "7110"},
+              {"name": "Mujibnagar", "postal_code": "7120"}
+            ]
+          },
+          {
+            "name": "Narail",
+            "police_stations": [
+              {"name": "Narail Sadar", "postal_code": "7500"},
+              {"name": "Kalia", "postal_code": "7520"},
+              {"name": "Lohagara", "postal_code": "7510"}
+            ]
+          },
+          {
+            "name": "Satkhira",
+            "police_stations": [
+              {"name": "Satkhira Sadar", "postal_code": "9400"},
+              {"name": "Assasuni", "postal_code": "9450"},
+              {"name": "Debhata", "postal_code": "9440"},
+              {"name": "Kalaroa", "postal_code": "9410"},
+              {"name": "Kaliganj", "postal_code": "9420"},
+              {"name": "Shyamnagar", "postal_code": "9430"},
+              {"name": "Tala", "postal_code": "9460"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mymensingh Division",
+        "districts": [
+          {
+            "name": "Jamalpur",
+            "police_stations": [
+              {"name": "Jamalpur Sadar", "postal_code": "2000"},
+              {"name": "Baksiganj", "postal_code": "2120"},
+              {"name": "Dewanganj", "postal_code": "2030"},
+              {"name": "Islampur", "postal_code": "2020"},
+              {"name": "Madarganj", "postal_code": "2040"},
+              {"name": "Melandaha", "postal_code": "2010"},
+              {"name": "Sarishabari", "postal_code": "2050"}
+            ]
+          },
+          {
+            "name": "Mymensingh",
+            "police_stations": [
+              {"name": "Mymensingh Sadar", "postal_code": "2200"},
+              {"name": "Bhaluka", "postal_code": "2240"},
+              {"name": "Dhobaura", "postal_code": "2260"},
+              {"name": "Fulbaria", "postal_code": "2250"},
+              {"name": "Gaffargaon", "postal_code": "2230"},
+              {"name": "Gauripur", "postal_code": "2270"},
+              {"name": "Haluaghat", "postal_code": "2280"},
+              {"name": "Ishwarganj", "postal_code": "2290"},
+              {"name": "Muktagacha", "postal_code": "2210"},
+              {"name": "Nandail", "postal_code": "2220"},
+              {"name": "Phulpur", "postal_code": "2222"},
+              {"name": "Trishal", "postal_code": "2221"}
+            ]
+          },
+          {
+            "name": "Netrokona",
+            "police_stations": [
+              {"name": "Netrokona Sadar", "postal_code": "2400"},
+              {"name": "Atpara", "postal_code": "2416"},
+              {"name": "Barhatta", "postal_code": "2440"},
+              {"name": "Durgapur", "postal_code": "2430"},
+              {"name": "Khaliajuri", "postal_code": "2450"},
+              {"name": "Kalmakanda", "postal_code": "2420"},
+              {"name": "Kendua", "postal_code": "2410"},
+              {"name": "Madan", "postal_code": "2446"},
+              {"name": "Mohanganj", "postal_code": "2445"},
+              {"name": "Purbadhala", "postal_code": "2416"}
+            ]
+          },
+          {
+            "name": "Sherpur",
+            "police_stations": [
+              {"name": "Sherpur Sadar", "postal_code": "2100"},
+              {"name": "Jhenaigati", "postal_code": "2140"},
+              {"name": "Nakla", "postal_code": "2110"},
+              {"name": "Nalitabari", "postal_code": "2130"},
+              {"name": "Sreebardi", "postal_code": "2150"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rajshahi Division",
+        "districts": [
+          {
+            "name": "Bogra",
+            "police_stations": [
+              {"name": "Bogra Sadar", "postal_code": "5800"},
+              {"name": "Adamdighi", "postal_code": "5820"},
+              {"name": "Dhunat", "postal_code": "5890"},
+              {"name": "Dhupchanchia", "postal_code": "5880"},
+              {"name": "Gabtali", "postal_code": "5840"},
+              {"name": "Kahaloo", "postal_code": "5870"},
+              {"name": "Nandigram", "postal_code": "5860"},
+              {"name": "Sariakandi", "postal_code": "5830"},
+              {"name": "Shajahanpur", "postal_code": "5850"},
+              {"name": "Sherpur", "postal_code": "5810"},
+              {"name": "Shibganj", "postal_code": "5816"}
+            ]
+          },
+          {
+            "name": "Chapainawabganj",
+            "police_stations": [
+              {"name": "Chapainawabganj Sadar", "postal_code": "6300"},
+              {"name": "Bholahat", "postal_code": "6330"},
+              {"name": "Gomastapur", "postal_code": "6320"},
+              {"name": "Nachole", "postal_code": "6310"},
+              {"name": "Shibganj", "postal_code": "6340"}
+            ]
+          },
+          {
+            "name": "Joypurhat",
+            "police_stations": [
+              {"name": "Joypurhat Sadar", "postal_code": "5900"},
+              {"name": "Akkelpur", "postal_code": "5940"},
+              {"name": "Kalai", "postal_code": "5930"},
+              {"name": "Khetlal", "postal_code": "5920"},
+              {"name": "Panchbibi", "postal_code": "5910"}
+            ]
+          },
+          {
+            "name": "Naogaon",
+            "police_stations": [
+              {"name": "Naogaon Sadar", "postal_code": "6500"},
+              {"name": "Atrai", "postal_code": "6550"},
+              {"name": "Badalgachi", "postal_code": "6570"},
+              {"name": "Dhamoirhat", "postal_code": "6580"},
+              {"name": "Manda", "postal_code": "6520"},
+              {"name": "Mahadebpur", "postal_code": "6530"},
+              {"name": "Niamatpur", "postal_code": "6540"},
+              {"name": "Patnitala", "postal_code": "6560"},
+              {"name": "Porsha", "postal_code": "6510"},
+              {"name": "Raninagar", "postal_code": "6590"},
+              {"name": "Sapahar", "postal_code": "6566"}
+            ]
+          },
+          {
+            "name": "Natore",
+            "police_stations": [
+              {"name": "Natore Sadar", "postal_code": "6400"},
+              {"name": "Bagatipara", "postal_code": "6430"},
+              {"name": "Baraigram", "postal_code": "6440"},
+              {"name": "Gurudaspur", "postal_code": "6450"},
+              {"name": "Lalpur", "postal_code": "6420"},
+              {"name": "Naldanga", "postal_code": "6410"},
+              {"name": "Singra", "postal_code": "6460"}
+            ]
+          },
+          {
+            "name": "Pabna",
+            "police_stations": [
+              {"name": "Pabna Sadar", "postal_code": "6600"},
+              {"name": "Atgharia", "postal_code": "6630"},
+              {"name": "Bera", "postal_code": "6680"},
+              {"name": "Bhangura", "postal_code": "6640"},
+              {"name": "Chatmohar", "postal_code": "6610"},
+              {"name": "Faridpur", "postal_code": "6650"},
+              {"name": "Ishwardi", "postal_code": "6620"},
+              {"name": "Santhia", "postal_code": "6670"},
+              {"name": "Sujanagar", "postal_code": "6660"}
+            ]
+          },
+          {
+            "name": "Rajshahi",
+            "police_stations": [
+              {"name": "Rajshahi Sadar", "postal_code": "6000"},
+              {"name": "Bagha", "postal_code": "6280"},
+              {"name": "Bagmara", "postal_code": "6260"},
+              {"name": "Charghat", "postal_code": "6270"},
+              {"name": "Durgapur", "postal_code": "6240"},
+              {"name": "Godagari", "postal_code": "6290"},
+              {"name": "Mohanpur", "postal_code": "6210"},
+              {"name": "Paba", "postal_code": "6212"},
+              {"name": "Puthia", "postal_code": "6250"},
+              {"name": "Tanore", "postal_code": "6220"}
+            ]
+          },
+          {
+            "name": "Sirajganj",
+            "police_stations": [
+              {"name": "Sirajganj Sadar", "postal_code": "6700"},
+              {"name": "Belkuchi", "postal_code": "6740"},
+              {"name": "Chauhali", "postal_code": "6750"},
+              {"name": "Kamarkhanda", "postal_code": "6760"},
+              {"name": "Kazipur", "postal_code": "6720"},
+              {"name": "Raiganj", "postal_code": "6730"},
+              {"name": "Shahjadpur", "postal_code": "6770"},
+              {"name": "Tarash", "postal_code": "6710"},
+              {"name": "Ullahpara", "postal_code": "6780"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rangpur Division",
+        "districts": [
+          {
+            "name": "Dinajpur",
+            "police_stations": [
+              {"name": "Dinajpur Sadar", "postal_code": "5200"},
+              {"name": "Birampur", "postal_code": "5220"},
+              {"name": "Birganj", "postal_code": "5210"},
+              {"name": "Biral", "postal_code": "5216"},
+              {"name": "Bochaganj", "postal_code": "5280"},
+              {"name": "Chirirbandar", "postal_code": "5230"},
+              {"name": "Phulbari", "postal_code": "5260"},
+              {"name": "Ghoraghat", "postal_code": "5270"},
+              {"name": "Hakimpur", "postal_code": "5240"},
+              {"name": "Kaharole", "postal_code": "5250"},
+              {"name": "Khansama", "postal_code": "5226"},
+              {"name": "Nawabganj", "postal_code": "5290"},
+              {"name": "Parbatipur", "postal_code": "5210"}
+            ]
+          },
+          {
+            "name": "Gaibandha",
+            "police_stations": [
+              {"name": "Gaibandha Sadar", "postal_code": "5700"},
+              {"name": "Phulchhari", "postal_code": "5710"},
+              {"name": "Gobindaganj", "postal_code": "5740"},
+              {"name": "Palashbari", "postal_code": "5730"},
+              {"name": "Sadullapur", "postal_code": "5720"},
+              {"name": "Sughatta", "postal_code": "5750"},
+              {"name": "Sundarganj", "postal_code": "5760"}
+            ]
+          },
+          {
+            "name": "Kurigram",
+            "police_stations": [
+              {"name": "Kurigram Sadar", "postal_code": "5600"},
+              {"name": "Bhurungamari", "postal_code": "5670"},
+              {"name": "Char Rajibpur", "postal_code": "5680"},
+              {"name": "Chilmari", "postal_code": "5630"},
+              {"name": "Phulbari", "postal_code": "5660"},
+              {"name": "Nageshwari", "postal_code": "5650"},
+              {"name": "Rajarhat", "postal_code": "5640"},
+              {"name": "Raomari", "postal_code": "5620"},
+              {"name": "Ulipur", "postal_code": "5610"}
+            ]
+          },
+          {
+            "name": "Lalmonirhat",
+            "police_stations": [
+              {"name": "Lalmonirhat Sadar", "postal_code": "5500"},
+              {"name": "Aditmari", "postal_code": "5510"},
+              {"name": "Hatibandha", "postal_code": "5530"},
+              {"name": "Kaliganj", "postal_code": "5540"},
+              {"name": "Patgram", "postal_code": "5550"}
+            ]
+          },
+          {
+            "name": "Nilphamari",
+            "police_stations": [
+              {"name": "Nilphamari Sadar", "postal_code": "5300"},
+              {"name": "Dimla", "postal_code": "5350"},
+              {"name": "Domar", "postal_code": "5340"},
+              {"name": "Jaldhaka", "postal_code": "5330"},
+              {"name": "Kishoreganj", "postal_code": "5320"},
+              {"name": "Saidpur", "postal_code": "5310"}
+            ]
+          },
+          {
+            "name": "Panchagarh",
+            "police_stations": [
+              {"name": "Panchagarh Sadar", "postal_code": "5000"},
+              {"name": "Atwari", "postal_code": "5010"},
+              {"name": "Boda", "postal_code": "5020"},
+              {"name": "Debiganj", "postal_code": "5030"},
+              {"name": "Tetulia", "postal_code": "5040"}
+            ]
+          },
+          {
+            "name": "Rangpur",
+            "police_stations": [
+              {"name": "Rangpur Sadar", "postal_code": "5400"},
+              {"name": "Badarganj", "postal_code": "5460"},
+              {"name": "Gangachara", "postal_code": "5410"},
+              {"name": "Kaunia", "postal_code": "5440"},
+              {"name": "Mithapukur", "postal_code": "5450"},
+              {"name": "Pirgachha", "postal_code": "5420"},
+              {"name": "Pirganj", "postal_code": "5430"},
+              {"name": "Taraganj", "postal_code": "5470"}
+            ]
+          },
+          {
+            "name": "Thakurgaon",
+            "police_stations": [
+              {"name": "Thakurgaon Sadar", "postal_code": "5100"},
+              {"name": "Baliadangi", "postal_code": "5120"},
+              {"name": "Haripur", "postal_code": "5130"},
+              {"name": "Pirganj", "postal_code": "5110"},
+              {"name": "Ranisankail", "postal_code": "5140"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sylhet Division",
+        "districts": [
+          {
+            "name": "Habiganj",
+            "police_stations": [
+              {"name": "Habiganj Sadar", "postal_code": "3300"},
+              {"name": "Ajmiriganj", "postal_code": "3320"},
+              {"name": "Bahubal", "postal_code": "3310"},
+              {"name": "Baniyachong", "postal_code": "3330"},
+              {"name": "Chunarughat", "postal_code": "3340"},
+              {"name": "Lakhai", "postal_code": "3350"},
+              {"name": "Madhabpur", "postal_code": "3360"},
+              {"name": "Nabiganj", "postal_code": "3370"}
+            ]
+          },
+          {
+            "name": "Moulvibazar",
+            "police_stations": [
+              {"name": "Moulvibazar Sadar", "postal_code": "3200"},
+              {"name": "Barlekha", "postal_code": "3250"},
+              {"name": "Juri", "postal_code": "3260"},
+              {"name": "Kamalganj", "postal_code": "3220"},
+              {"name": "Kulaura", "postal_code": "3230"},
+              {"name": "Rajnagar", "postal_code": "3240"},
+              {"name": "Sreemangal", "postal_code": "3210"}
+            ]
+          },
+          {
+            "name": "Sunamganj",
+            "police_stations": [
+              {"name": "Sunamganj Sadar", "postal_code": "3000"},
+              {"name": "Bishwamvarpur", "postal_code": "3010"},
+              {"name": "Chhatak", "postal_code": "3020"},
+              {"name": "Derai", "postal_code": "3030"},
+              {"name": "Dharampasha", "postal_code": "3040"},
+              {"name": "Dowarabazar", "postal_code": "3050"},
+              {"name": "Jagannathpur", "postal_code": "3060"},
+              {"name": "Jamalganj", "postal_code": "3070"},
+              {"name": "Sullah", "postal_code": "3080"},
+              {"name": "Tahirpur", "postal_code": "3090"}
+            ]
+          },
+          {
+            "name": "Sylhet",
+            "police_stations": [
+              {"name": "Sylhet Sadar", "postal_code": "3100"},
+              {"name": "Balaganj", "postal_code": "3120"},
+              {"name": "Beanibazar", "postal_code": "3130"},
+              {"name": "Bishwanath", "postal_code": "3140"},
+              {"name": "Companiganj", "postal_code": "3150"},
+              {"name": "Dakshin Surma", "postal_code": "3160"},
+              {"name": "Fenchuganj", "postal_code": "3116"},
+              {"name": "Golapganj", "postal_code": "3170"},
+              {"name": "Gowainghat", "postal_code": "3180"},
+              {"name": "Jaintiapur", "postal_code": "3190"},
+              {"name": "Kanaighat", "postal_code": "3186"},
+              {"name": "Zakiganj", "postal_code": "3196"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
