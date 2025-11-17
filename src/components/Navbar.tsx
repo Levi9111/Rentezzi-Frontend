@@ -106,7 +106,7 @@ export default function Navbar() {
       ref={navRef}
       className={[
         'sticky top-0 z-50 border-b transition-all duration-300',
-        'backdrop-blur-md supports-[backdrop-filter]:bg-background/80',
+        'backdrop-blur-md supports-backdrop-filter:bg-background/80',
         scrolled
           ? 'shadow-lg shadow-black/5 border-border/60 bg-background/95'
           : 'border-transparent bg-background/60',
@@ -116,7 +116,7 @@ export default function Navbar() {
       {/* Skip link */}
       <a
         href='#receipt-form'
-        className='sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] bg-primary text-primary-foreground px-4 py-2 rounded-lg shadow-lg transition-all focus:scale-105'
+        className='sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-60 bg-primary text-primary-foreground px-4 py-2 rounded-lg shadow-lg transition-all focus:scale-105'
       >
         Skip to form
       </a>
@@ -129,7 +129,7 @@ export default function Navbar() {
               Rent Ezzi
               <span className='absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full'></span>
             </span>
-            <span className='text-xs text-muted-foreground hidden sm:inline opacity-0 translate-x-[-10px] group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300'>
+            <span className='text-xs text-muted-foreground hidden sm:inline opacity-0 -translate-x-2.5 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300'>
               Bangladesh 🇧🇩
             </span>
           </a>
@@ -170,7 +170,7 @@ export default function Navbar() {
               className='relative inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2.5 text-accent-foreground text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/20 active:scale-95 overflow-hidden group'
             >
               <span className='relative z-10'>রসিদ তৈরি করুন</span>
-              <span className='absolute inset-0 bg-gradient-to-r from-accent to-accent/80 translate-y-full group-hover:translate-y-0 transition-transform duration-300'></span>
+              <span className='absolute inset-0 bg-linear-to-r from-accent to-accent/80 translate-y-full group-hover:translate-y-0 transition-transform duration-300'></span>
             </button>
 
             {/* User Menu */}
@@ -350,7 +350,7 @@ export default function Navbar() {
               className='mt-4 inline-flex items-center justify-center rounded-lg bg-accent px-4 py-3.5 text-accent-foreground font-medium hover:bg-accent/90 transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95 relative overflow-hidden group'
             >
               <span className='relative z-10'>রসিদ তৈরি করুন</span>
-              <span className='absolute inset-0 bg-gradient-to-r from-accent/80 to-accent translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300'></span>
+              <span className='absolute inset-0 bg-linear-to-r from-accent/80 to-accent -translate-x-full group-hover:translate-x-0 transition-transform duration-300'></span>
             </button>
 
             {/* NEW: Login / Register */}
