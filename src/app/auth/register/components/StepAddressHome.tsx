@@ -36,7 +36,7 @@ export function StepAddressHome() {
             </p>
           )}
         </div>
-
+        {/* 
         <div>
           <Label required htmlFor='flatNumber'>
             ফ্ল্যাট নম্বর
@@ -56,21 +56,34 @@ export function StepAddressHome() {
               {errors.landlord.address.flatNumber.message}
             </p>
           )}
+        </div> */}
+
+        <div>
+          <Label htmlFor='flatNumber'>ফ্ল্যাট নম্বর</Label>
+          <input
+            id='flatNumber'
+            type='text'
+            className='w-full rounded-lg border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary'
+            placeholder='উদাহরণ: Flat-B2, Apt-5C, Unit-401'
+            aria-invalid={!!errors.landlord?.address?.flatNumber}
+            {...register('landlord.address.flatNumber')}
+          />
+          {errors.landlord?.address?.flatNumber && (
+            <p className='mt-1 text-xs text-red-500'>
+              {errors.landlord.address.flatNumber.message}
+            </p>
+          )}
         </div>
 
         <div>
-          <Label required htmlFor='block'>
-            ব্লক / সেকশন
-          </Label>
+          <Label htmlFor='block'>ব্লক / সেকশন</Label>
           <input
             id='block'
             type='text'
             className='w-full rounded-lg border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary'
             placeholder='উদাহরণ: Block-C, Sector-3, Phase-2'
             aria-invalid={!!errors.landlord?.address?.block}
-            {...register('landlord.address.block', {
-              required: 'Block is required',
-            })}
+            {...register('landlord.address.block')}
           />
           {errors.landlord?.address?.block && (
             <p className='mt-1 text-xs text-red-500'>

@@ -6,7 +6,7 @@ export const authApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     register: builder.mutation({
       query: (credentials) => ({
-        url: '/auth/register',
+        url: '/user/create-landlord',
         method: 'POST',
         body: credentials,
       }),

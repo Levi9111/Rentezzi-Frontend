@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 
 import type { RegisterFormValues, Step } from './types';
@@ -13,9 +12,13 @@ import { StepPersonal } from './components/StepPersonal';
 import { StepAddressArea } from './components/StepAddressArea';
 import { StepAddressHome } from './components/StepAddressHome';
 import { StepReview } from './components/StepPreview';
+import { useState } from 'react';
+import { useRegisterMutation } from '@/redux/api/authApi';
+import { useAlert } from '@/components/alert/AlertProvider';
 
 export default function RegisterPage() {
-  const [step, setStep] = React.useState<Step>(0);
+  const [step, setStep] = useState<Step>(0);
+  const [register, { isLoading, error }] = useRegisterMutation();
   const lastStep = STEPS[STEPS.length - 1].id;
 
   const methods = useForm<RegisterFormValues>({
@@ -54,8 +57,10 @@ export default function RegisterPage() {
     formState: { errors, isSubmitting },
   } = methods;
 
+  const { showAlert } = useAlert();
+
   // Restore + autosave
-  useFormDraft(methods, LS_KEY);
+  // useFormDraft(methods, LS_KEY);
 
   const clampStep = (val: number): Step =>
     Math.max(0, Math.min(4, val)) as Step;
@@ -70,39 +75,26 @@ export default function RegisterPage() {
 
   const goBack = () => setStep((s) => clampStep(s - 1));
 
-  const onSubmit = async (values: RegisterFormValues) => {
+  const onSubmit = async (data: RegisterFormValues) => {
     if (step !== lastStep) {
       await goNext();
       return;
     }
 
-    console.log(values);
+    console.log(data);
 
-    // Reduxt fetching here: Later
+    try {
+      const result = await register({
+        password: data.password,
+        landlord: data.landlord,
+      });
 
-    // try {
-    //   const res = await fetch('http://localhost:5000/api/v1/landlords', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify(values),
-    //   });
-    //   const json = await res.json();
-    //   console.log(json);
-    //   if (res.ok) {
-    //     localStorage.removeItem(LS_KEY);
-    //     alert('রেজিস্ট্রেশন সম্পন্ন!');
-    //   } else {
-    //     alert('রেজিস্ট্রেশন ব্যর্থ: ' + (json?.message || 'Unknown error'));
-    //   }
-    // } catch (e: unknown) {
-    //   const message =
-    //     e instanceof Error
-    //       ? e.message
-    //       : typeof e === 'string'
-    //       ? e
-    //       : 'Network error';
-    //   alert('নেটওয়ার্ক ত্রুটি: ' + message);
-    // }
+      console.log(result);
+      showAlert('success', 'রেজিস্ট্রেশন সফল হয়েছে!');
+    } catch (error) {
+      showAlert('error', 'রেজিস্ট্রেশন ব্যর্থ হয়েছে!');
+      console.log(error);
+    }
   };
 
   return (

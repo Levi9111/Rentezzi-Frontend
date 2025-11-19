@@ -5,6 +5,7 @@ import './globals.css';
 import { Toaster as Sonner } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { ReduxProvider } from '@/redux/ReduxProvider';
+import { AlertProvider } from '@/components/alert/AlertProvider';
 
 const hindSiliguri = Hind_Siliguri({
   weight: ['400', '500', '600', '700'],
@@ -46,7 +47,9 @@ export default function RootLayout({
     <html lang='bn' className={`${hindSiliguri.variable} ${inter.variable}`}>
       <body>
         <TooltipProvider>
-          <ReduxProvider>{children}</ReduxProvider>
+          <ReduxProvider>
+            <AlertProvider>{children}</AlertProvider>
+          </ReduxProvider>
           {/* <Toaster /> */}
           <Sonner />
         </TooltipProvider>
